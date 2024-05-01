@@ -8,17 +8,31 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: 'Docs', link: '/stratusphere-intro' }
     ],
 
     sidebar: [
       {
-        text: 'Examples',
+        text: 'Intro',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: 'Stratusphere Intro', link: '/stratusphere-intro' },
+          { text: 'Getting Started', link: '/getting-started' }
         ]
-      }
+      },
+      {
+        text: 'Views',
+        items: [
+          { text: 'Summary', link: 'views/view-summary.md' },
+          { text: 'Analysis', link: 'views/view-analysis.md' },
+          { text: 'Findings', link: 'views/view-findings.md' },
+        ]
+      },
+      {
+        text: 'API Reference',
+        items: [
+          { text: 'API Reference', link: 'api-reference.md' }
+        ]
+      },
     ],
 
     socialLinks: [
