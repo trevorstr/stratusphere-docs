@@ -8,7 +8,8 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Docs', link: '/stratusphere-intro' }
+      { text: 'FinOps', link: '/stratusphere-intro' },
+      { text: 'SecOps', link: '/stratusphere-secops' },
     ],
 
     sidebar: [
@@ -16,7 +17,8 @@ export default defineConfig({
         text: 'Intro',
         items: [
           { text: 'Stratusphere Intro', link: '/stratusphere-intro' },
-          { text: 'Getting Started', link: '/getting-started' }
+          { text: 'Getting Started', link: '/getting-started' },
+          { text: 'Stratusphere FAQ', link: '/stratusphere-faq' },
         ]
       },
       {
@@ -36,7 +38,7 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/stratusgrid' }
     ]
   }
 })

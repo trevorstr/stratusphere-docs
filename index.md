@@ -3,23 +3,23 @@
 layout: home
 
 hero:
-  name: "Stratusphere"
-  text: "Stratusphere Product Docs"
-  tagline: My great project tagline
+  name: "Stratusphere™️ FinOps"
+  text: "Product Docs"
+  tagline: FinOps for Private Equity and Large Enterprise
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Browse Documentation
+      link: /stratusphere-intro.md
+    # - theme: alt
+    #   text: API Examples
+    #   link: /api-examples
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Cost Reports
+    details: View your entire portfolio's AWS spend and potential savings
+  - title: P&L View
+    details: Drill into a chronological report showing expenditures, savings by vehicle type, and potential savings
+  - title: Cost Optimization Findings
+    details: Find specific actionable items that can reduce your cloud spend
 ---
 
