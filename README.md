@@ -1,0 +1,1 @@
+# stratusphere-docs
